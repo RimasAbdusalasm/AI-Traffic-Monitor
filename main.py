@@ -1,4 +1,3 @@
-```python
 from flask import Flask, render_template, request
 from ultralytics import YOLO
 import cv2
@@ -141,4 +140,3 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
-```
